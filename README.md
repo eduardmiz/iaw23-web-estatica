@@ -9,7 +9,7 @@ A la hora de escoger nuestras fuentes, hemos obtenido las fuentes que nos da el 
 FUENTE ESCOGIDA
 - CALIBRI
 GAMA DE COLORES
-![Gamma de Colores]/workspace-iaw/proyecto/imagenes/gamma_colores.png)
+![Gamma de Colores](/workspace-iaw/proyecto/imagenes/gamma_colores.png)
 Gama de Colores
 
 PROTOTIPOS
