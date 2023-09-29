@@ -14,7 +14,7 @@ A la hora de escoger nuestras fuentes, hemos obtenido las fuentes de google Font
     - (Para cuerpo) Calibri
    
 ## GAMA DE COLORES
-![Gama de Colores](assets/imagenes/gamma_colores.png)
+![Gama de Colores](assets/imagenes/gama_colores.png)
 
 ## PROTOTIPOS
 ![Index](assets/imagenes/index.png)
