@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title class="Titulo">SALVEMOS A LOS LIBROS</title>
+    <!-- Enlace a la hoja/s de estilos que se encuentra/n en la carpeta Css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/4277/4277086.png"/>
+
+</head>
+<body class="fondo">
+    <div>
+        <h1>SALVEMOS LOS LIBROS</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light colorcaja">
+      <div class="container-fluid cabecera">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 texto-cabezera">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="formulario-html">
+        <form action="mailto: correo@gmail.com" method="post" enctype="text/plain" name="formulario">
+            <fieldset>
+                <legend><b>Proponer evento</b></legend>
+                <h2>Tipo de Evento</h2>
+                <ul>
+                    <li><input type="radio" name="Tipo" value="Música">Musica</p>
+                        <p><input type="radio" name="Tipo" value="Tecnologia">Tecnologia
+                    </li>
+                    <li><input type="radio" name="Tipo" value="Familia">Familia</p>
+                        <p><input type="radio" name="Tipo" value="Artes escenicas y visuales">Artes escenicas y
+                            visuales
+                    </li>
+                    <li><input type="radio" name="Tipo" value="Aficiones">Aficiones</p>
+                        <p><input type="radio" name="Tipo" value="Gastronomia">Gastronomía
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><b>Destinatari@ y Mensaje</b></legend>
+                <h2>Destinatario:</h2>
+                <ul>
+                    <li><input type="checkbox" name="Destinatario" value="Secretaria">Secretaría</li>
+                    <li><input type="checkbox" name="Destinatario" value="Direccion">Dirección</li>
+                    <li><input type="checkbox" name="Destinatario" value="Informatica">Informática</li>
+                    <li><input type="checkbox" name="Destinatario" value="Orientacion">Orientación</li>
+                </ul>
+                <br>
+                <h2>Mensaje:</h2>
+                <textarea name="mensaje" placeholder="Escribe tu mensaje" cols="50" rows="6"></textarea>
+
+                <div id="mapa">
+                    <div id="mapa-caption">Ubicación</div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5852.60237023393!2d-1.659702218917347!3d42.82425132882289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5092855cefdac7%3A0xab7c62765f5209e2!2sCuatrovientos%20Centro%20Integrado!5e0!3m2!1ses!2snl!4v1664280743527!5m2!1ses!2snl"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+            </fieldset>
+            <div id="Enviar">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </div>
