@@ -20,6 +20,7 @@ Aqui hemos elegido esta gama de colores ya que nos parece un conjunto de colores
 
 ## PROTOTIPOS
 Esta seria nuestra planificación para la pagina web, que consistira en un Index, en otra página un apartado de Eventos, otra página con un formulario tipo html para contactarnos si fuera necesario y para finalizar una página con un formulario html para el login.
+
 ![Index](assets/imagenes/index.png)
 ![Eventos](assets/imagenes/eventos.png)
 ![Contactanos](assets/imagenes/contacto.png)
